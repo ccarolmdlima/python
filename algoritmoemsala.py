@@ -1,3 +1,5 @@
+#com for
+
 l = [3,2,1,7,8,9,7]
 l1 = [1,34,5,2]
 print("primeira iteração do for in")
@@ -15,4 +17,25 @@ for x in l:
     print("o maior é ", w)
     print(max(l))
     print("o menor é ", y)
+    print(min(l))
+
+#com while
+l = [3, 2, 1, 7, 8, 9, 7]
+l1 = [1, 34, 5, 2]
+print("primeira iteração do while")
+w = l[0]
+y = l[0]
+i = t = 0
+while i < len(l):
+    x = l[i]
+    print(x)
+    if l[i] > w:
+        w = l[i]
+    if l[i] < y:
+        y = l[i]
+    i = i + 1
+    t = t + x
+    print("o maior é", w)
+    print(max(l))
+    print("o menor é", y)
     print(min(l))
