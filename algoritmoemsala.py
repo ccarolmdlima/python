@@ -1,5 +1,4 @@
 #com for
-
 l = [3,2,1,7,8,9,7]
 l1 = [1,34,5,2]
 print("primeira iteração do for in")
