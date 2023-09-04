@@ -22,5 +22,22 @@ print(d)
 d.popitem()
 print(d)
 
-----------------------------------------------------------------------------------------------------------------
 
+notas = { "João"  : 9,
+          "Maria" : 10,
+          "José"  : 4}
+
+nome = input("digite o nome do aluno: ")
+nota = float(input("digite sua nota: "))
+print("antigo dicionário--------", notas)
+
+if notas.get(nome):
+    print("Já existe o aluno ", nome)
+else:
+    d[nome] = nome
+print("novo dicionário------------")
+print(d)
+
+print(d.keys())
+
+print(d.values())
