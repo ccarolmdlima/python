@@ -44,11 +44,12 @@ def crialista():
         elemento = int(input("digite o {} elemento da lista" .format(x)))
         l.append(elemento)
         x = x - 1
-        
+    return(1)
+
 def imprimirlista(lista):
     print(lista)
     time.sleep(5)
-    
+
 #programa principal
 
 menu()
