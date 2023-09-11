@@ -45,5 +45,10 @@ def crialista():
         l.append(elemento)
         x = x - 1
         
-def imprimirlista():
+def imprimirlista(lista):
+    print(lista)
+    time.sleep(5)
     
+#programa principal
+
+menu()
