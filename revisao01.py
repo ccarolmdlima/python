@@ -52,6 +52,11 @@ def imprimirlista(lista):
     print(lista)
     time.sleep(5)
 
-#programa principal
+def produtolista(lst):
+    if len(lst) == 0:
+        return 1
+    else:
+        return lst[0] * produtolista(lst[1:0])
 
+#programa principal
 menu()
