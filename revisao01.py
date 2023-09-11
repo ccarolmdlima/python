@@ -33,7 +33,9 @@ def menu():
         if int(op) == 2:
             l = lst.reverse
         if int(op) == 3:
-            pass
+            prod = produtolista(lst)
+            print(prod)
+            time.sleep(5)
         if int(op) == 4:
             imprimirlista(lst)
             
